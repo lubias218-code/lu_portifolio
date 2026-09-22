@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lubia | Marketing Portfolio</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#1f2937;background:#f7f9fc}
+  nav{position:sticky;top:0;background:white;border-bottom:1px solid #e5e7eb;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;z-index:10}
+  nav strong{font-size:1.2rem}
+  nav a{margin-left:20px;text-decoration:none;color:#374151;font-weight:600}
+  nav a:hover{color:#2563eb}
+  .hero{min-height:75vh;display:flex;align-items:center;padding:70px 7%;background:linear-gradient(135deg,#eaf3ff,#ffffff)}
+  .hero-text{max-width:720px}
+  .tag{display:inline-block;background:#dbeafe;color:#1d4ed8;padding:7px 14px;border-radius:20px;font-weight:700;margin-bottom:18px}
+  h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.05;margin-bottom:20px}
+  h2{font-size:2rem;margin-bottom:25px}
+  .hero p{font-size:1.2rem;color:#4b5563;max-width:650px}
+  .btn{display:inline-block;margin-top:28px;background:#2563eb;color:white;padding:13px 22px;border-radius:9px;text-decoration:none;font-weight:700}
+  section{padding:70px 7%;max-width:1200px;margin:auto}
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .card{background:white;padding:25px;border-radius:15px;border:1px solid #e5e7eb;box-shadow:0 5px 18px rgba(0,0,0,.04)}
+  .card h3{margin-bottom:10px}
+  .portfolio{background:#eef5ff;max-width:none}
+  .portfolio-inner{max-width:1200px;margin:auto}
+  .contact{background:#111827;color:white;max-width:none}
+  .contact-inner{max-width:1200px;margin:auto}
+  .contact p{color:#d1d5db}
+  footer{text-align:center;padding:25px;background:#111827;color:#9ca3af}
+  @media(max-width:800px){
+    .about,.card-grid{grid-template-columns:1fr}
+    nav{display:block}
+    nav div{margin-top:8px}
+    nav a{margin:0 14px 0 0}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <strong>Lubia</strong>
+  <div>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-text">
+    <span class="tag">Marketing Student • Creative • Digital</span>
+    <h1>Creative ideas that help businesses grow.</h1>
+    <p>
+      Hello, I'm Lubia. I am a marketing student interested in digital marketing,
+      social media, content creation, photography and user experience.
+      This website is my growing portfolio of creative and marketing projects.
+    </p>
+    <a class="btn" href="#portfolio">View My Portfolio</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="about">
+    <div>
+      <h2>About Me</h2>
+      <p>
+        I am developing my skills in marketing and digital communication.
+        I enjoy creating ideas that connect businesses with their customers.
+        I am particularly interested in social media marketing, content creation,
+        photography, analytics and new marketing technologies.
+      </p>
+    </div>
+    <div class="card">
+      <h3>My Goal</h3>
+      <p>
+        To build a career in digital marketing and create engaging campaigns
+        that combine creativity with data and a strong understanding of customers.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <div class="portfolio-inner">
+    <h2>My Portfolio</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Social Media Marketing</h3><p>Social media post concepts, content ideas and campaign planning.</p></div>
+      <div class="card"><h3>Photography</h3><p>Photography projects exploring composition, visual communication and storytelling.</p></div>
+      <div class="card"><h3>Campaign Strategy</h3><p>Creative campaign ideas designed to attract attention and support business growth.</p></div>
+      <div class="card"><h3>UX & UI</h3><p>Ideas for making websites simple to navigate, clear and visually engaging.</p></div>
+      <div class="card"><h3>Analytics</h3><p>Learning how data and performance metrics can improve marketing decisions.</p></div>
+      <div class="card"><h3>Creative Content</h3><p>Visual and written content created for digital marketing projects.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>My Skills</h2>
+  <div class="card-grid">
+    <div class="card"><h3>Digital Marketing</h3><p>Understanding digital channels and customer engagement.</p></div>
+    <div class="card"><h3>Social Media</h3><p>Content planning and communication for social platforms.</p></div>
+    <div class="card"><h3>Creative Design</h3><p>Creating clear and attractive visual content.</p></div>
+    <div class="card"><h3>Photography</h3><p>Visual storytelling and composition.</p></div>
+    <div class="card"><h3>Analytics</h3><p>Using data to understand marketing performance.</p></div>
+    <div class="card"><h3>AI & Technology</h3><p>Exploring AI and technology for modern marketing.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-inner">
+    <h2>Let's Connect</h2>
+    <p>If you would like to discuss my work or future opportunities, please get in touch.</p>
+    <a class="btn" href="mailto:your-email@example.com">Email Me</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Lubia — Marketing Portfolio
+</footer>
+
+</body>
+</html>
